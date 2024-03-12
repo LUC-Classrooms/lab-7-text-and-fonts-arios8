@@ -4,14 +4,19 @@
 
 function setup() {
   createCanvas(640, 240);
-  textFont("Arial");
+  textFont("Impact");
 }
 
 function draw() {
-  background(200);
+  background(247, 242, 246);
+  
+if(mouseIsPressed){
   textSize(16);
-  text("one small step for a man ...", 20, 60);
+  text("she loves me not :(", 20, 60);
+} else{
   textSize(32);
-  text("one giant leap for mankind.", 20, 160);
+  text("she loves me...", 20, 60);
+}
+
 
 }
